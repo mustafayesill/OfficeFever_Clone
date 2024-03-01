@@ -1,0 +1,1 @@
+This project made by me for educational purposes. The main goal is to learn hyper-casual game mechanics. That's why I chose "Office Fever' game to clone and understand the logic behind it. Foused on instantiating objects, collecting the created objects and dropping them.
