@@ -1,21 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class BuyManager : MonoBehaviour
 {
+    
     public int moneyCount=0;
+    
     private void OnEnable()
     {
         TriggerManager.OnMoneyCollect += IncreaseMoney;
         TriggerManager.OnBuyingDesk += BuyArea;
     }
-
     private void OnDisable()
     {
         TriggerManager.OnMoneyCollect -= IncreaseMoney;
         TriggerManager.OnBuyingDesk -= BuyArea;
-
     }
     void BuyArea()
     {

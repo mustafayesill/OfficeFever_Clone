@@ -343,7 +343,7 @@ MonoBehaviour:
   progressImage: {fileID: 118585216}
   deskGameObject: {fileID: 1583326512}
   buyGameObject: {fileID: 243079772}
-  cost: 50
+  cost: 100
   currentMoney: 0
   progress: 0
 --- !u!1 &86321349
@@ -1705,7 +1705,7 @@ MonoBehaviour:
   progressImage: {fileID: 1360278444}
   deskGameObject: {fileID: 1204082356}
   buyGameObject: {fileID: 1842175235}
-  cost: 50
+  cost: 100
   currentMoney: 0
   progress: 0
 --- !u!1 &508544260
@@ -3809,7 +3809,7 @@ MonoBehaviour:
   progressImage: {fileID: 1090235828}
   deskGameObject: {fileID: 958690605}
   buyGameObject: {fileID: 1164842569}
-  cost: 50
+  cost: 100
   currentMoney: 0
   progress: 0
 --- !u!65 &1424269067
@@ -3900,7 +3900,7 @@ PrefabInstance:
       addedObject: {fileID: 1814316657}
     - targetCorrespondingSourceObject: {fileID: 343638522572748073, guid: 9854bb05e98038145add8ed7c25af4b1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1814316659}
+      addedObject: {fileID: 1814316665}
   m_SourcePrefab: {fileID: 100100000, guid: 9854bb05e98038145add8ed7c25af4b1, type: 3}
 --- !u!1 &1583326512
 GameObject:
@@ -4096,7 +4096,7 @@ MonoBehaviour:
   progressImage: {fileID: 218967258}
   deskGameObject: {fileID: 160299587}
   buyGameObject: {fileID: 18955885}
-  cost: 50
+  cost: 100
   currentMoney: 0
   progress: 0
 --- !u!1 &1711264933
@@ -4377,7 +4377,7 @@ MonoBehaviour:
   paperList: []
   paperPrefab: {fileID: 8821895139277952260, guid: c196da10203740a47ad462d99450f25e, type: 3}
   collectPoint: {fileID: 1766569055}
---- !u!114 &1814316659
+--- !u!114 &1814316665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

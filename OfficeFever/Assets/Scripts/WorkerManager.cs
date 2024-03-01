@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+
 
 public class WorkerManager : MonoBehaviour
 {
@@ -9,12 +12,11 @@ public class WorkerManager : MonoBehaviour
 
     public Transform DropPoint,moneyDropPoint;
     public GameObject paperPrefab,moneyPrefab;
-
-    int moneyStack = 10;
-
+    
+    int moneyStack = 10;  
     private void Start()
     {
-        StartCoroutine(GenerateMoney());
+        StartCoroutine(GenerateMoney());        
     }
     IEnumerator GenerateMoney()
     {
@@ -31,7 +33,6 @@ public class WorkerManager : MonoBehaviour
             }
             
             yield return new WaitForSeconds(0.5f);
-
         }
     }
     public void GetPaper()

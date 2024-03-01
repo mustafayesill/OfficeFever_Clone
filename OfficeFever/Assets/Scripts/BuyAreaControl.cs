@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class BuyAreaControl : MonoBehaviour
@@ -9,6 +10,7 @@ public class BuyAreaControl : MonoBehaviour
     public Image progressImage;
     public GameObject deskGameObject,buyGameObject;
     public float cost, currentMoney,progress;
+    
     public void Buy(int goldAmount)
     {
         currentMoney += goldAmount;

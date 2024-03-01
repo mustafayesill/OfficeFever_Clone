@@ -72,8 +72,7 @@ public class TriggerManager : MonoBehaviour
         if (other.gameObject.CompareTag("CollectArea"))
         {
             isCollecting = false;
-            printerManager = null;
-            
+            printerManager = null;      
         }
         if (other.gameObject.CompareTag("DropArea"))
         {
